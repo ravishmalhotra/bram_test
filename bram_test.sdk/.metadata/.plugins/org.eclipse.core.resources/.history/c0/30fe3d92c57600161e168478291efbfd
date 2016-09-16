@@ -1,0 +1,56 @@
+/*
+ * parser.h
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: ravishm
+ */
+
+#ifndef PARSER_H_
+#define PARSER_H_
+
+#include "stdlib.h"
+#include "string.h"
+#include "site.h"
+#include "serial.h"
+
+typedef union args_table {
+
+	char *s;
+	char c;
+	int d;
+	float f;
+
+} args_table;
+
+typedef struct cmds_table {
+
+	char *name;
+	void (*func) (args_table *);
+	char *args;
+
+
+} cmds_table;
+
+
+#define MK_CMD(x) void cmd_##x(args_table*)
+
+MK_CMD(get_freq);
+//MK_CMD(set_trim_cur);
+
+#define CMDS 1
+#define CMD(string, func, params) {#string, cmd_##func, params}
+
+
+cmds_table cmds[]= {
+		CMD(G_FREQ,get_freq,'d'),
+		//CMD(S_T_CUR,set_trim_cur,'df')
+
+ };
+
+
+void cmd_get_freq(args_table *args);
+void interpreter(Serial uart,char *all_args);
+void command_parser(char *all_args, cmds_table *cmds);
+void args_parser( char *args,args_table *params) ;
+
+#endif /* PARSER_H_ */

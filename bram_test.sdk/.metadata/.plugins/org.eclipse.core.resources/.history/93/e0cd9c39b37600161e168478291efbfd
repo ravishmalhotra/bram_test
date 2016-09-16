@@ -1,0 +1,14 @@
+/*
+ * site.c
+
+ *
+ *  Created on: Sep 8, 2016
+ *      Author: ravishm
+ */
+
+void new_site(Site *site) {
+
+
+	new_oscillator(&(site->osc));
+
+}

@@ -1,0 +1,13 @@
+
+#ifndef CONSTANTS_H		/* prevent circular inclusions */
+#define CONSTANTS_H		/* by using protection macros */
+
+
+
+
+typedef enum  {CLOSED_LOOP,OPEN_LOOP,FREQ_TRIM,LEAKAGE,POWER_SUPPLY} logsubsystem;
+typedef enum  {ALL_INFO,WARN_AND_ERROR_ONLY,ERROR_ONLY} loglevel;
+
+loglevel LOG_LEVEL=ALL_INFO;
+
+#endif

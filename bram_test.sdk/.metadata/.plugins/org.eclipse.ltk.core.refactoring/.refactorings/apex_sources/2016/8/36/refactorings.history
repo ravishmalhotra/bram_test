@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;apex_sources/src/serial.c&apos; to &apos;uart.c&apos;" description="Rename resource &apos;serial.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/serial.c" name="uart.c" stamp="1472666415582" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;apex_sources/src/serial.h&apos; to &apos;uart.h&apos;" description="Rename resource &apos;serial.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/serial.h" name="uart.h" stamp="1472666424797" updateReferences="true"/>
+</session>

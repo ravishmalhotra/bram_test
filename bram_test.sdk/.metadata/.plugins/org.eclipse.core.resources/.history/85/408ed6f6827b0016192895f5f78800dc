@@ -1,0 +1,17 @@
+/*
+ * SPI.c
+ *
+ *  Created on: Sep 12, 2016
+ *      Author: ravishm
+ */
+
+static XSpiPs_Config *spi_config_ptr;
+static XSpiPs spi_inst;
+
+
+
+
+int init_spi_ps(void *this);
+
+void tx_spi (void *data, char type);
+void rx_spi (u8 *data);

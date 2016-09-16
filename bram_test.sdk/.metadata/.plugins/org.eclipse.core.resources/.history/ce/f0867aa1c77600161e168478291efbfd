@@ -1,0 +1,108 @@
+/*
+ * parser.c
+ *
+ *  Created on: Sep 6, 2016
+ *      Author: ravishm
+ */
+
+#include "parser.h"
+
+
+
+static const char *delim="|%";
+
+static cmds_table cmds[]= {
+		CMD(G_FREQ,get_freq,'d')
+	   //CMD(S_T_CUR,set_trim_cur,'df')
+
+ };
+
+
+void cmd_get_freq(args_table *args) {
+
+	extern Site site[];
+	extern Serial uart;
+
+	float freq;
+	int site_num=args[0].d-1;
+
+	site[site_num].osc.get_freq(&site[site_num]); //Define this
+	freq=site[site_num].osc.freq;
+
+	uart.tx(&freq,'f');
+
+
+}
+
+
+void interpreter(Serial uart,char *all_args) {
+
+   int i;
+
+	for (i=0;i<MAX_CHAR_ARGS;i++) {
+
+		uart.rx((u8 *) &all_args[i]);
+		if ((char) all_args[i]=="%") {
+			command_parser(all_args,&cmds);
+			break;
+
+		}
+
+	}
+
+} //Be careful, some strings might run over, depending on when the scan is done.
+
+
+void command_parser(char *all_args, static cmds_table *cmds) {
+
+	const char *command=strtok(all_args,delim);
+	int i=CMDS;
+	int str_length;
+
+	while (i--) {
+
+		if (!strcmp(command,cmds[i].name)) {
+			str_length=strlen(cmds[i].args);
+			args_table params[str_length];
+
+			args_parser(cmds[i].args,params);
+			cmds[i].func(params);
+
+		}
+
+	}
+}
+
+void args_parser( char *args,args_table *params) {
+
+int i;
+int str_length=strlen(args);
+
+for (i=0;i<str_length;i++) {
+
+	char *arg_str;
+
+	switch (args[i]) {
+
+	case 's':
+		params[i].s=strtok(NULL,delim);
+		break;
+	case 'c':
+		arg_str=strtok(NULL,delim);
+		params[i].c=arg_str[0];
+		break;
+	case 'd':
+		arg_str=strtok(NULL,delim);
+		params[i].d=atoi(arg_str);
+		break;
+	case 'f':
+		arg_str=strtok(NULL,delim);
+		params[i].f=atof(arg_str);
+	}
+
+}
+
+
+}
+
+

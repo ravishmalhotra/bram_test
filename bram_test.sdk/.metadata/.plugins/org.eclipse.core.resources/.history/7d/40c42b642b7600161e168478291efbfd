@@ -1,0 +1,21 @@
+/*
+ * oscillator.c
+ *
+ *  Created on: Sep 8, 2016
+ *      Author: ravishm
+ */
+
+
+void osc_get_freq(void *this) {
+
+	Site *site=this;
+
+	site->osc.freq=get_freq(site->site_num);
+
+}
+
+
+void set_drive (void *this, int drive) {
+
+	return;
+}

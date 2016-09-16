@@ -1,0 +1,27 @@
+/*
+ * closed_loop.h
+ *
+ *  Created on: Sep 8, 2016
+ *      Author: ravishm
+ */
+
+#ifndef CLOSED_LOOP_H_
+#define CLOSED_LOOP_H_
+
+
+typedef struct Oscillator {
+
+	float freq;
+	int drive;
+
+	float (*get_freq) (void *this);
+	void (*set_drive) (void *this, int drive);
+
+
+
+} Oscillator;
+
+
+void new_oscillator(Oscillator *osc);
+
+#endif /* CLOSED_LOOP_H_ */

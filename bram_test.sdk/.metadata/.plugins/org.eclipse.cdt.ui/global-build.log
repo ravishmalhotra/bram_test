@@ -1,0 +1,1249 @@
+15:37:37 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+15:37:44 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+15:37:45 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+15:46:55 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+../src/parser.c: In function 'command_parser':
+../src/parser.c:82:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Comm string %s \n", command);
+   ^
+../src/parser.c:82:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/parser.c:86:4: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+    printf("String Match! %s \n");
+    ^
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79212	   2424	  22828	 104464	  19810	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+15:55:50 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+../src/parser.c: In function 'command_parser':
+../src/parser.c:82:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Comm string %s \n", command);
+   ^
+../src/parser.c:82:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/parser.c:86:4: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+    printf("String Match! %s \n");
+    ^
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79276	   2424	  22828	 104528	  19850	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+15:55:59 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+15:56:00 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:01:09 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+../src/parser.c: In function 'command_parser':
+../src/parser.c:82:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Comm string %s \n", command);
+   ^
+../src/parser.c:82:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/parser.c:86:4: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+    printf("String Match! %s \n");
+    ^
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79276	   2424	  22828	 104528	  19850	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:01:53 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:02:01 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:02:02 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:02:08 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:02:09 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79276	   2424	  22828	 104528	  19850	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:02:32 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:02:33 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:13:08 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+../src/parser.c: In function 'command_parser':
+../src/parser.c:82:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Comm string %s \n", command);
+   ^
+../src/parser.c:82:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/parser.c:86:4: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+    printf("String Match! %s \n");
+    ^
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79276	   2424	  22828	 104528	  19850	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:13:36 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:13:36 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:16:32 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79084	   2424	  22828	 104336	  19790	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:17:13 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:17:14 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:17:34 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:17:35 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:21:56 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+../src/parser.c: In function 'command_parser':
+../src/parser.c:90:4: warning: passing argument 2 of 'args_parser' from incompatible pointer type [enabled by default]
+    args_parser(cmds[i].args,&params);
+    ^
+In file included from ../src/parser.c:8:0:
+../src/parser.h:49:6: note: expected 'union args_table *' but argument is of type 'union args_table (*)[(sizetype)(str_length)]'
+ void args_parser( char *args,args_table *params) ;
+      ^
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79084	   2424	  22828	 104336	  19790	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:26:05 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:26:06 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/parser.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/parser.d" -MT"src/parser.d" -o "src/parser.o" "../src/parser.c"
+'Finished building: ../src/parser.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79084	   2424	  22828	 104336	  19790	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:36:32 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/freq_counter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freq_counter.d" -MT"src/freq_counter.d" -o "src/freq_counter.o" "../src/freq_counter.c"
+../src/freq_counter.c: In function 'init_counter':
+../src/freq_counter.c:31:2: warning: passing argument 1 of 'XBram_CfgInitialize' discards 'volatile' qualifier from pointer target type [enabled by default]
+  status = XBram_CfgInitialize(&bram, config_ptr,config_ptr->CtrlBaseAddress);
+  ^
+In file included from ../src/freq_counter.h:11:0,
+                 from ../src/freq_counter.c:1:
+../../apex_sources_bsp/ps7_cortexa9_0/include/xbram.h:189:5: note: expected 'struct XBram *' but argument is of type 'volatile struct XBram *'
+ int XBram_CfgInitialize(XBram *InstancePtr, XBram_Config *Config,
+     ^
+../src/freq_counter.c:31:2: warning: passing argument 2 of 'XBram_CfgInitialize' discards 'volatile' qualifier from pointer target type [enabled by default]
+  status = XBram_CfgInitialize(&bram, config_ptr,config_ptr->CtrlBaseAddress);
+  ^
+In file included from ../src/freq_counter.h:11:0,
+                 from ../src/freq_counter.c:1:
+../../apex_sources_bsp/ps7_cortexa9_0/include/xbram.h:189:5: note: expected 'struct XBram_Config *' but argument is of type 'volatile struct XBram_Config *'
+ int XBram_CfgInitialize(XBram *InstancePtr, XBram_Config *Config,
+     ^
+../src/freq_counter.c:25:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  int status;
+      ^
+'Finished building: ../src/freq_counter.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:92:12: warning: unused variable 'freq' [-Wunused-variable]
+      float freq=get_freq(0);
+            ^
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:36:51 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:36:51 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:38:16 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:38:17 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:38:44 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:38:44 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:39:34 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:34 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:41:23 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:41:24 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:43:23 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:43:24 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:48:12 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:48:13 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:50:21 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:50:22 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:51:55 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:51:55 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:54:53 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:54:54 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:56:01 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:56:02 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+16:57:29 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:57:29 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78916	   2424	  22828	 104168	  196e8	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:58:48 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:58:48 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+../src/main.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78716	   2424	  22828	 103968	  19620	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+16:59:22 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+16:59:22 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+../src/main.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78724	   2424	  22828	 103976	  19628	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:00:25 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:00:25 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+../src/main.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78724	   2424	  22828	 103976	  19628	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:01:05 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:06 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+make: Nothing to be done for `all'.
+17:03:22 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:03:23 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/uart.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/uart.d" -MT"src/uart.d" -o "src/uart.o" "../src/uart.c"
+../src/uart.c: In function 'init_uart_ps':
+../src/uart.c:20:2: warning: passing argument 1 of 'XUartPs_CfgInitialize' discards 'volatile' qualifier from pointer target type [enabled by default]
+  status=XUartPs_CfgInitialize(&uart_inst_ptr, uart_config_ptr, XPAR_PS7_UART_1_BASEADDR);
+  ^
+In file included from ../src/uart.h:12:0,
+                 from ../src/uart.c:8:
+../../apex_sources_bsp/ps7_cortexa9_0/include/xuartps.h:444:5: note: expected 'struct XUartPs *' but argument is of type 'volatile struct XUartPs *'
+ int XUartPs_CfgInitialize(XUartPs *InstancePtr,
+     ^
+../src/uart.c:20:2: warning: passing argument 2 of 'XUartPs_CfgInitialize' discards 'volatile' qualifier from pointer target type [enabled by default]
+  status=XUartPs_CfgInitialize(&uart_inst_ptr, uart_config_ptr, XPAR_PS7_UART_1_BASEADDR);
+  ^
+In file included from ../src/uart.h:12:0,
+                 from ../src/uart.c:8:
+../../apex_sources_bsp/ps7_cortexa9_0/include/xuartps.h:444:5: note: expected 'struct XUartPs_Config *' but argument is of type 'volatile struct XUartPs_Config *'
+ int XUartPs_CfgInitialize(XUartPs *InstancePtr,
+     ^
+../src/uart.c:16:13: warning: unused variable 'uart' [-Wunused-variable]
+     Serial *uart=this;
+             ^
+../src/uart.c: In function 'tx_uart':
+../src/uart.c:35:6: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+      printf("%d\n",*((int *)data));
+      ^
+../src/uart.c:35:6: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/uart.c: In function 'rx_uart':
+../src/uart.c:56:3: warning: passing argument 1 of 'XUartPs_Recv' discards 'volatile' qualifier from pointer target type [enabled by default]
+   XUartPs_Recv(&uart_inst_ptr, data,1);
+   ^
+In file included from ../src/uart.h:12:0,
+                 from ../src/uart.c:8:
+../../apex_sources_bsp/ps7_cortexa9_0/include/xuartps.h:450:14: note: expected 'struct XUartPs *' but argument is of type 'volatile struct XUartPs *'
+ unsigned int XUartPs_Recv(XUartPs *InstancePtr, u8 *BufferPtr,
+              ^
+../src/uart.c: At top level:
+../src/uart.c:61:1: warning: return type defaults to 'int' [-Wreturn-type]
+ new_uart(Serial *uart) {
+ ^
+../src/uart.c:61:1: warning: conflicting types for 'new_uart' [enabled by default]
+In file included from ../src/uart.c:8:0:
+../src/uart.h:23:6: note: previous declaration of 'new_uart' was here
+ void new_uart(Serial *uart);
+      ^
+'Finished building: ../src/uart.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78780	   2424	  22828	 104032	  19660	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:05:18 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:05:19 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:104:15: error: expected expression before '/' token
+     return 0;*/
+               ^
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+make: *** [src/main.o] Error 1
+17:06:18 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:06:19 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:104:15: error: expected expression before '/' token
+     return 0;*/
+               ^
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+make: *** [src/main.o] Error 1
+17:06:45 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:06:45 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:08:51 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:08:52 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: variable 'freq' set but not used [-Wunused-but-set-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:09:41 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:09:42 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78844	   2424	  22828	 104096	  196a0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:10:24 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:25 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78780	   2424	  22828	 104032	  19660	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:11:43 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:11:43 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78780	   2424	  22828	 104032	  19660	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:12:52 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:12:53 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78780	   2424	  22828	 104032	  19660	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:13:25 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:25 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+../src/main.c:69:7: warning: unused variable 'i' [-Wunused-variable]
+    u8 i;
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78780	   2424	  22828	 104032	  19660	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:14:12 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:14:12 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:71:9: warning: unused variable 'all_args' [-Wunused-variable]
+    char all_args[MAX_CHAR_ARGS]={""};
+         ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78844	   2424	  22828	 104096	  196a0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:15:26 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:15:26 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78908	   2424	  22828	 104160	  196e0	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:17:50 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:17:51 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   2424	  22828	 104152	  196d8	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:30:54 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:30:55 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78836	   2424	  22828	 104088	  19698	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '
+17:33:52 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+17:33:53 **** Incremental Build of configuration Debug for project apex_sources ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../apex_sources_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:63:15: warning: 'uart' initialized and declared 'extern' [enabled by default]
+ extern Serial uart={};
+               ^
+../src/main.c:64:13: warning: 'site' initialized and declared 'extern' [enabled by default]
+ extern Site site[ACTIVE_SITES]={};
+             ^
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: unused variable 'test' [-Wunused-variable]
+    char test='d';
+         ^
+../src/main.c:73:7: warning: unused variable 'data' [-Wunused-variable]
+    u8 data;
+       ^
+../src/main.c:70:10: warning: unused variable 'freq' [-Wunused-variable]
+    float freq;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: apex_sources.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../apex_sources_bsp/ps7_cortexa9_0/lib -o "apex_sources.elf"  ./src/debug.o ./src/freq_counter.o ./src/main.o ./src/oscillator.o ./src/parser.o ./src/platform.o ./src/site.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: apex_sources.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size apex_sources.elf  |tee "apex_sources.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78900	   2424	  22828	 104152	  196d8	apex_sources.elf
+'Finished building: apex_sources.elf.size'
+' '

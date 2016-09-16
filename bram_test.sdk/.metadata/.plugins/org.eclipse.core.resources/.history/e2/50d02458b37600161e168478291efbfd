@@ -1,0 +1,15 @@
+/*
+ * site.c
+
+ *
+ *  Created on: Sep 8, 2016
+ *      Author: ravishm
+ */
+
+void new_site(Site *site,int site_number) {
+
+
+	site->site_num=site_number;
+	new_oscillator(&(site->osc));
+
+}

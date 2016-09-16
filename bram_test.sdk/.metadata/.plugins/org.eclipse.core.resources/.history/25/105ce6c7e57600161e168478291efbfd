@@ -1,0 +1,120 @@
+#include "freq_counter.h"
+
+
+ static XBram_Config volatile *config_ptr;
+ static XBram volatile bram;
+
+ /*****************************************************************************/
+ /**
+ * Initializes the Frequency counter by initializing the FPGA BRAM
+ * The data from the FPGA frequency counter resides in the FPGA BRAM where it is read from
+ * by processor and pulled into the main memory.
+ *
+ *
+ * @param	None
+ *
+ * @return  None
+ *
+ *
+ * @note    None.
+ *
+ ******************************************************************************/
+
+void init_counter(void) {
+
+	int status;
+
+
+	config_ptr = XBram_LookupConfig(BRAM_DEVICE_ID);
+	check_error(((config_ptr == (XBram_Config *) NULL)),FREQ_COUNTER,"BRAM Config Pointer does not have a address \n");
+
+	status = XBram_CfgInitialize(&bram, config_ptr,config_ptr->CtrlBaseAddress);
+	check_error((status != XST_SUCCESS), FREQ_COUNTER, "BRAM Control Registers could not be assigned proper values \n");
+
+	return;
+}
+
+
+/*****************************************************************************/
+ /**
+ * Returns the counter value from the FPGA reference frequency counter by reading it from the
+ * appropriate BRAM address
+ *
+ * @param	Channel No. The channel number can go from 1 to FREQ_CHANNELS
+ *
+ * @return  U32 bit reference counter value
+ *
+ *
+ * @note    None.
+ *
+ ******************************************************************************/
+
+u32 get_ref_counter(int channel) {
+
+	u32 ref_counter;
+	ref_counter= XBram_ReadReg(config_ptr->MemBaseAddress, (channel)*4);
+	//check_info(ref_counter>0,FREQ_COUNTER, "Reference Channel %d Counter value:%d \n",channel,ref_counter);
+	//check_error((ref_counter==0), FREQ_COUNTER, "No 10MHz reference frequency found. \n");
+	return ref_counter;
+}
+
+
+/*****************************************************************************/
+ /**
+ * Returns the counter value from the FPGA measurement frequency counter by reading it from the
+ * appropriate BRAM address
+ *
+ * @param	Channel No. The channel number can go from 1 to FREQ_CHANNELS
+ *
+ * @return  U32 bit measurement counter value
+ *
+ *
+ * @note    None.
+ *
+ ******************************************************************************/
+
+u32 get_meas_counter(int channel) {
+
+	u32 meas_counter;
+	meas_counter= XBram_ReadReg(config_ptr->MemBaseAddress, ((channel)*4)+FREQ_CHANNELS*4);
+	//check_info(meas_counter>MIN_MEAS_COUNTER_VALUE,FREQ_COUNTER, "Measurement Channel %d Counter value:%d \n",channel,meas_counter);
+	//check_warning((meas_counter<=MIN_MEAS_COUNTER_VALUE),FREQ_COUNTER,"Measurement Channel %d did not find a working oscillator\n",channel);
+	//check_warning((meas_counter>=MAX_MEAS_COUNTER_VALUE),FREQ_COUNTER,"Measurement Channel %d has a higher than expected counter value. Counter value: %d \n",channel,meas_counter);
+	return meas_counter;
+}
+
+
+/*****************************************************************************/
+ /**
+ * Returns the freq measured from specified channel based on the following formula
+ * freq=(meas_counter/ref_counter)*(REF_FREQ)
+ * Additionally, the code also resets the FPGA counters and waits until the data has been transferred
+ * from the FPGA into the BRAM
+ *
+ * @param	Channel No. The channel number can go from 1 to FREQ_CHANNELS
+ *
+ * @return  Float frequency value
+ *
+ *
+ * @note    None.
+ *
+ ******************************************************************************/
+
+float get_freq(int channel) {
+
+   //Have code to reset the counter
+	//Have code to check status of the data transfer
+	//Have code to set very coarse, coarse, fine and super fine measurements
+
+	u32 meas_counter=get_meas_counter(channel);
+	u32 ref_counter=get_ref_counter(channel);
+
+	float freq=((float)meas_counter/(float)ref_counter)*(REF_FREQ);
+	//check_info((freq>MIN_FREQUENCY), FREQ_COUNTER, "Channel:%d, Frequency:%10.5e Hz\n", channel, (freq));
+    //check_warning(((freq)<=MIN_FREQUENCY),FREQ_COUNTER,"Channel %d frequency is BELOW expectation. Frequency: %d\n",channel,(freq));
+    //check_warning(((freq)>=MAX_FREQUENCY),FREQ_COUNTER,"Channel %d frequency is ABOVE expectation. Frequency: %d\n",channel,(freq));
+
+	return freq;
+
+
+}

@@ -1,0 +1,705 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Sat May 21 15:19:47 2016
+# Process ID: 10764
+# Log file: C:/Users/ravishm/xilinx_projects/bram_test/bram_test.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/ravishm/xilinx_projects/bram_test/bram_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty:part0:1.1 available at C:/Xilinx/Vivado/2014.3.1/data/boards/board_parts/artix7/arty/C.0/board_part.xml as part xc7a35ticsg324-1l specified in board_part file is either invalid or not available
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.3.1
+Loading clock regions from C:/Xilinx/Vivado/2014.3.1/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.3.1/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.3.1/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.3.1/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.3.1/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.3.1/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 933.832 ; gain = 462.387
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [C:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/constrs_1/new/bram_constraints.xdc]
+Finished Parsing XDC File [C:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/constrs_1/new/bram_constraints.xdc]
+Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_late.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/ravishm/xilinx_projects/bram_test/bram_test.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_late.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'design_1_wrapper'...
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 943.973 ; gain = 749.418
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 943.973 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1331ab1d6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.184 . Memory (MB): peak = 943.973 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 1 cells.
+Phase 2 Constant Propagation | Checksum: ba4435cb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.417 . Memory (MB): peak = 943.973 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 245 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 100 unconnected cells.
+Phase 3 Sweep | Checksum: cb989d34
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 943.973 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: cb989d34
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 943.973 ; gain = 0.000
+Implement Debug Cores | Checksum: bd0289c0
+Logic Optimization | Checksum: bd0289c0
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 8 BRAM(s) out of a total of 8 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 8 newly gated: 0 Total Ports: 16
+Ending PowerOpt Patch Enables Task | Checksum: 12f042d8b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 943.973 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 12f042d8b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 943.973 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 943.973 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/ravishm/xilinx_projects/bram_test/bram_test.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 9dc6fe29
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 943.973 ; gain = 0.000
+
+Phase 2 Placer Initialization
+
+Phase 2.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 943.973 ; gain = 0.000
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 943.973 ; gain = 0.000
+
+Phase 2.1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1.1 Pre-Place Cells
+Phase 2.1.1.1 Pre-Place Cells | Checksum: 2c46a6a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.186 . Memory (MB): peak = 943.973 ; gain = 0.000
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[0]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[0]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[10]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[10]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[11]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[11]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[12]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[12]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[13]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[13]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[14]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[14]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[15]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[15]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[16]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[16]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[17]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[17]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[18]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[18]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[19]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[19]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[1]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[1]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[20]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[20]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[21]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[21]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[22]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[22]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[23]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[23]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[24]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[24]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[25]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[25]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[26]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[26]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[27]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[27]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[28]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[28]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[29]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[29]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[2]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[2]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[30]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[30]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[31]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[31]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[3]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[3]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[4]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[4]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[5]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[5]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[6]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[6]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[7]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[7]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[8]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[8]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk1_reg[9]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk1_reg[9]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[0]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[0]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[10]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[10]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[11]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[11]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[12]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[12]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[13]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[13]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[14]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[14]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[15]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[15]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[16]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[16]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[17]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[17]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[18]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[18]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[19]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[19]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[1]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[1]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[20]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[20]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[21]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[21]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[22]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[22]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[23]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[23]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[24]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[24]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[25]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[25]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[26]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[26]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[27]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[27]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[28]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[28]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[29]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[29]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[2]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[2]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[30]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[30]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[31]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[31]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[3]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[3]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[4]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[4]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[5]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[5]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[6]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[6]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[7]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[7]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[8]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[8]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk2_reg[9]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk2_reg[9]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[0]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[0]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[10]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[10]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[11]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[11]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[12]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[12]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[13]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[13]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[14]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[14]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[15]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[15]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[16]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[16]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[17]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[17]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[18]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[18]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[19]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[19]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[1]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[1]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[20]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[20]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[21]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[21]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[22]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[22]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[23]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[23]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[24]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[24]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[25]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[25]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[26]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[26]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[27]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[27]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[28]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[28]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[29]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[29]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[2]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[2]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[30]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[30]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[31]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[31]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[3]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[3]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[4]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[4]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[5]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[5]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[6]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[6]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[7]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[7]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[8]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[8]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk3_reg[9]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk3_reg[9]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk4_reg[0]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk4_reg[0]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk4_reg[10]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk4_reg[10]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk4_reg[11]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk4_reg[11]_LDC {LDCE}
+WARNING: [Place 30-568] A LUT 'design_1_i/freq_counter_0/inst/countermeas_clk4_reg[12]_LDC_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	design_1_i/freq_counter_0/inst/countermeas_clk4_reg[12]_LDC {LDCE}
+INFO: [Common 17-14] Message 'Place 30-568' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard LVCMOS18
+	FIXED_IO_mio[26] of IOStandard LVCMOS18
+	FIXED_IO_mio[25] of IOStandard LVCMOS18
+	FIXED_IO_mio[24] of IOStandard LVCMOS18
+	FIXED_IO_mio[23] of IOStandard LVCMOS18
+	FIXED_IO_mio[22] of IOStandard LVCMOS18
+	FIXED_IO_mio[21] of IOStandard LVCMOS18
+	FIXED_IO_mio[20] of IOStandard LVCMOS18
+	FIXED_IO_mio[19] of IOStandard LVCMOS18
+	FIXED_IO_mio[18] of IOStandard LVCMOS18
+	FIXED_IO_mio[17] of IOStandard LVCMOS18
+	FIXED_IO_mio[16] of IOStandard LVCMOS18
+	FIXED_IO_mio[15] of IOStandard LVCMOS33
+	FIXED_IO_mio[14] of IOStandard LVCMOS33
+	FIXED_IO_mio[13] of IOStandard LVCMOS33
+	FIXED_IO_mio[12] of IOStandard LVCMOS33
+	FIXED_IO_mio[11] of IOStandard LVCMOS33
+	FIXED_IO_mio[10] of IOStandard LVCMOS33
+	FIXED_IO_mio[9] of IOStandard LVCMOS33
+	FIXED_IO_mio[8] of IOStandard LVCMOS33
+	FIXED_IO_mio[7] of IOStandard LVCMOS33
+	FIXED_IO_mio[6] of IOStandard LVCMOS33
+	FIXED_IO_mio[5] of IOStandard LVCMOS33
+	FIXED_IO_mio[4] of IOStandard LVCMOS33
+	FIXED_IO_mio[3] of IOStandard LVCMOS33
+	FIXED_IO_mio[2] of IOStandard LVCMOS33
+	FIXED_IO_mio[1] of IOStandard LVCMOS33
+	FIXED_IO_mio[0] of IOStandard LVCMOS33
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.1.2 IO & Clk Clean Up
+Phase 2.1.1.2 IO & Clk Clean Up | Checksum: 2c46a6a7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 2.1.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.1.3 Implementation Feasibility check On IDelay | Checksum: 2c46a6a7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 2.1.1.4 Commit IO Placement
+Phase 2.1.1.4 Commit IO Placement | Checksum: 92db1305
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2.1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ce1d801b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 2.1.2 Build Placer Netlist Model
+
+Phase 2.1.2.1 Place Init Design
+
+Phase 2.1.2.1.1 Init Lut Pin Assignment
+Phase 2.1.2.1.1 Init Lut Pin Assignment | Checksum: 11a4d74d5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2.1.2.1 Place Init Design | Checksum: 1a4dad2d4
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2.1.2 Build Placer Netlist Model | Checksum: 1a4dad2d4
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 2.1.3 Constrain Clocks/Macros
+
+Phase 2.1.3.1 Constrain Global/Regional Clocks
+Phase 2.1.3.1 Constrain Global/Regional Clocks | Checksum: 1c5441486
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2.1.3 Constrain Clocks/Macros | Checksum: 1c5441486
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2.1 Placer Initialization Core | Checksum: 1c5441486
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 2 Placer Initialization | Checksum: 1c5441486
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 19b374977
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 19b374977
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 17a20eca5
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 1c1c8f741
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.4 Timing Path Optimizer
+Phase 4.4 Timing Path Optimizer | Checksum: 156286eb3
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.5 Commit Small Macros & Core Logic
+
+Phase 4.5.1 setBudgets
+Phase 4.5.1 setBudgets | Checksum: 167d89066
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.5.2 Commit Slice Clusters
+Phase 4.5.2 Commit Slice Clusters | Checksum: 1d33c5c5a
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 4.5 Commit Small Macros & Core Logic | Checksum: 1d33c5c5a
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.6 Clock Restriction Legalization for Leaf Columns
+Phase 4.6 Clock Restriction Legalization for Leaf Columns | Checksum: 18d648f59
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.7 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.7 Clock Restriction Legalization for Non-Clock Pins | Checksum: 18d648f59
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.8 Place Remaining
+Phase 4.8 Place Remaining | Checksum: 12875eb31
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 4.9 Re-assign LUT pins
+Phase 4.9 Re-assign LUT pins | Checksum: 12875eb31
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 4 Detail Placement | Checksum: 12875eb31
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: ee0ca1f8
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 5.2 Post Placement Optimization
+
+Phase 5.2.1 Post Placement Timing Optimization
+
+Phase 5.2.1.1 Restore Best Placement
+Phase 5.2.1.1 Restore Best Placement | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-77.686. For the most accurate timing information please run report_timing.
+Phase 5.2.1 Post Placement Timing Optimization | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 5.2 Post Placement Optimization | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 5.4 Placer Reporting | Checksum: 11581c06e
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: 178011e10
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 178011e10
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+Ending Placer Task | Checksum: 16c84440d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:20 . Memory (MB): peak = 959.516 ; gain = 15.543
+INFO: [Common 17-83] Releasing license: Implementation
+48 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:21 . Memory (MB): peak = 959.516 ; gain = 15.543
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.706 . Memory (MB): peak = 959.516 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 959.516 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+WARNING: [Drc 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are:  FIXED_IO_mio[53] of IOStandard LVCMOS18; FIXED_IO_mio[52] of IOStandard LVCMOS18; FIXED_IO_mio[51] of IOStandard LVCMOS18; FIXED_IO_mio[50] of IOStandard LVCMOS18; FIXED_IO_mio[49] of IOStandard LVCMOS18; FIXED_IO_mio[48] of IOStandard LVCMOS18; FIXED_IO_mio[47] of IOStandard LVCMOS18; FIXED_IO_mio[46] of IOStandard LVCMOS18; FIXED_IO_mio[45] of IOStandard LVCMOS18; FIXED_IO_mio[44] of IOStandard LVCMOS18; FIXED_IO_mio[43] of IOStandard LVCMOS18; FIXED_IO_mio[42] of IOStandard LVCMOS18; FIXED_IO_mio[41] of IOStandard LVCMOS18; FIXED_IO_mio[40] of IOStandard LVCMOS18; FIXED_IO_mio[39] of IOStandard LVCMOS18; FIXED_IO_mio[38] of IOStandard LVCMOS18; FIXED_IO_mio[37] of IOStandard LVCMOS18; FIXED_IO_mio[36] of IOStandard LVCMOS18; FIXED_IO_mio[35] of IOStandard LVCMOS18; FIXED_IO_mio[34] of IOStandard LVCMOS18; FIXED_IO_mio[33] of IOStandard LVCMOS18; FIXED_IO_mio[32] of IOStandard LVCMOS18; FIXED_IO_mio[31] of IOStandard LVCMOS18; FIXED_IO_mio[30] of IOStandard LVCMOS18; FIXED_IO_mio[29] of IOStandard LVCMOS18; FIXED_IO_mio[28] of IOStandard LVCMOS18; FIXED_IO_mio[27] of IOStandard LVCMOS18; FIXED_IO_mio[26] of IOStandard LVCMOS18; FIXED_IO_mio[25] of IOStandard LVCMOS18; FIXED_IO_mio[24] of IOStandard LVCMOS18; FIXED_IO_mio[23] of IOStandard LVCMOS18; FIXED_IO_mio[22] of IOStandard LVCMOS18; FIXED_IO_mio[21] of IOStandard LVCMOS18; FIXED_IO_mio[20] of IOStandard LVCMOS18; FIXED_IO_mio[19] of IOStandard LVCMOS18; FIXED_IO_mio[18] of IOStandard LVCMOS18; FIXED_IO_mio[17] of IOStandard LVCMOS18; FIXED_IO_mio[16] of IOStandard LVCMOS18; FIXED_IO_mio[15] of IOStandard LVCMOS33; FIXED_IO_mio[14] of IOStandard LVCMOS33; FIXED_IO_mio[13] of IOStandard LVCMOS33; FIXED_IO_mio[12] of IOStandard LVCMOS33; FIXED_IO_mio[11] of IOStandard LVCMOS33; FIXED_IO_mio[10] of IOStandard LVCMOS33; FIXED_IO_mio[9] of IOStandard LVCMOS33; FIXED_IO_mio[8] of IOStandard LVCMOS33; FIXED_IO_mio[7] of IOStandard LVCMOS33; FIXED_IO_mio[6] of IOStandard LVCMOS33; FIXED_IO_mio[5] of IOStandard LVCMOS33; FIXED_IO_mio[4] of IOStandard LVCMOS33; FIXED_IO_mio[3] of IOStandard LVCMOS33; FIXED_IO_mio[2] of IOStandard LVCMOS33; FIXED_IO_mio[1] of IOStandard LVCMOS33; FIXED_IO_mio[0] of IOStandard LVCMOS33;
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: cdd0ce60
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 1014.719 ; gain = 55.203
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: cdd0ce60
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 1017.176 ; gain = 57.660
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: cdd0ce60
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 1024.746 ; gain = 65.230
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 21ebd7810
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1031.738 ; gain = 72.223
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-76.5  | TNS=-4.99e+04| WHS=-1.85  | THS=-969   |
+
+Phase 2 Router Initialization | Checksum: 180187100
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 1031.738 ; gain = 72.223
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 124025997
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:52 . Memory (MB): peak = 1071.434 ; gain = 111.918
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 414
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1a123edc6
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:00 . Memory (MB): peak = 1071.434 ; gain = 111.918
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-122   | TNS=-7.77e+04| WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 11880d15e
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:01 . Memory (MB): peak = 1071.434 ; gain = 111.918
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 1068e91e7
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:01 . Memory (MB): peak = 1071.434 ; gain = 111.918
+Phase 4.1.2 GlobIterForTiming | Checksum: 1a9778a8b
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 1095.148 ; gain = 135.633
+Phase 4.1 Global Iteration 0 | Checksum: 1a9778a8b
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:14 . Memory (MB): peak = 1095.148 ; gain = 135.633
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 226
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1b007ee92
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1095.148 ; gain = 135.633
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-129   | TNS=-7.9e+04| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1f01c4300
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1095.148 ; gain = 135.633
+Phase 4 Rip-up And Reroute | Checksum: 1f01c4300
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1095.148 ; gain = 135.633
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 240887481
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1095.148 ; gain = 135.633
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-122   | TNS=-7.77e+04| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5 Delay CleanUp | Checksum: 1cf9f22f5
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1095.148 ; gain = 135.633
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 1cf9f22f5
+
+Time (s): cpu = 00:02:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1095.148 ; gain = 135.633
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 23751133f
+
+Time (s): cpu = 00:02:23 ; elapsed = 00:01:29 . Memory (MB): peak = 1095.148 ; gain = 135.633
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-120   | TNS=-7.66e+04| WHS=-1.13  | THS=-140   |
+

@@ -1,0 +1,90 @@
+#include "debug.h"
+
+
+char *log_str(logsubsystem system) {
+
+	switch (system)
+	{
+	   case CLOSED_LOOP: return "Closed loop";
+	   case OPEN_LOOP: return "Open loop";
+	   case FREQ_TRIM: return "Frequency trim";
+	   case LEAKAGE: return "Leakage";
+	   case POWER_SUPPLY: return "Power Supply";
+
+	}
+
+}
+
+
+
+void check_info (int condition,logsubsystem sys, char *info_msg,...) {
+
+	if (LOG_LEVEL==ALL_INFO) {
+
+		if (condition) {
+			va_list args;
+			char* subsys_str;
+			va_start(args, info_msg);
+			subsys_str=log_str(sys);
+			xil_printf("Subsystem: %s INFO: ", subsys_str);
+			vprintf(info_msg, args);
+			xil_printf("\n");
+			va_end(args);
+		}
+		else return;
+	}
+
+	else return;
+
+}
+
+
+
+void check_warn(int condition,logsubsystem sys, char *warn_msg,...) {
+
+	if (LOG_LEVEL==ALL_INFO || LOG_LEVEL==WARN_AND_ERROR_ONLY) {
+
+		if (condition) {
+			 va_list args;
+			 char* subsys_str;
+			 va_start(args, warn_msg);
+			 subsys_str=log_str(sys);
+			 xil_printf("Subsystem: %s WARNING: ", subsys_str);
+			 vprintf(warn_msg, args);
+			 xil_printf("\n");
+			 va_end(args);
+
+		}
+
+		else return;
+	}
+
+	else return;
+}
+
+
+void check_error(int condition, logsubsystem sys, char *error_msg,...) {
+
+	if (LOG_LEVEL==ALL_INFO || LOG_LEVEL==WARN_AND_ERROR_ONLY|| LOG_LEVEL==ERROR_ONLY) {
+
+		if (condition) {
+
+			va_list args;
+			char* subsys_str;
+			va_start(args, error_msg);
+			subsys_str=log_str(sys);
+			xil_printf("Subsystem: %s ERROR: ", subsys_str);
+			vprintf(error_msg, args);
+			xil_printf("\n");
+			va_end(args);
+
+			//goto error;
+		}
+
+		else return;
+
+	}
+
+	else return;
+}
+

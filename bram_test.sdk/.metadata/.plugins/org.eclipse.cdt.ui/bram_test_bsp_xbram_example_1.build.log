@@ -1,0 +1,6 @@
+17:33:52 **** Incremental Build of configuration Debug for project bram_test_bsp_xbram_example_1 ****
+make all 
+make: Nothing to be done for `all'.
+
+17:33:53 Build Finished (took 200ms)
+

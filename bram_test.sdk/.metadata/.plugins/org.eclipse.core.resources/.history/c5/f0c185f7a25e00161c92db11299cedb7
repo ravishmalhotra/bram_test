@@ -1,0 +1,18 @@
+#include "freq_counter.h"
+
+static XBram_Config *config_ptr;
+
+void init_counter(void) {
+
+	int status;
+
+	config_ptr = XBram_LookupConfig(BRAM_DEVICE_ID);
+	check_error(((config_ptr == (XBram_Config *) NULL)),FREQ_COUNTER,"BRAM Config Pointer does not have a address");
+
+	status = XBram_CfgInitialize(&Bram, config_ptr,config_ptr->CtrlBaseAddress);
+	check_error((status != XST_SUCCESS), FREQ_COUNTER, "BRAM Control Registers could not be assigned proper values")
+
+}
+
+int get_counter(int channel);
+float get_freq(int channel);

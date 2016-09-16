@@ -1,0 +1,1577 @@
+11:45:10 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+11:45:16 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:08:55 INFO  : Example project bram_test_bsp_xbram_example_1 has been created successfully.
+15:31:51 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+15:31:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:31:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:32:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463178582883,  Project:1463100713777
+15:32:14 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+15:32:14 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:32:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:32:42 INFO  : 
+15:32:43 INFO  : Updating hardware inferred compiler options for bram_test.
+15:32:43 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+15:32:43 INFO  : Clearing existing target manager status.
+16:08:27 INFO  : ps7_init is completed.
+16:08:28 INFO  : ps7_post_config is completed.
+16:08:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:09:03 INFO  : System reset is completed.
+16:09:05 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:09:05 INFO  : ps7_init is completed.
+16:09:05 INFO  : ps7_post_config is completed.
+16:09:24 INFO  : System reset is completed.
+16:09:26 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:09:26 INFO  : ps7_init is completed.
+16:09:26 INFO  : ps7_post_config is completed.
+12:33:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:42:24 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+14:42:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:42:28 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:42:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463521210833,  Project:1463178582883
+14:42:49 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+14:42:49 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:42:50 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:43:21 INFO  : 
+14:43:22 INFO  : Updating hardware inferred compiler options for bram_test.
+14:43:23 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+14:43:23 INFO  : Clearing existing target manager status.
+14:52:18 INFO  : System reset is completed.
+14:52:20 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:52:23 INFO  : ps7_init is completed.
+14:52:23 INFO  : ps7_post_config is completed.
+14:54:46 INFO  : System reset is completed.
+14:54:48 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:54:48 INFO  : ps7_init is completed.
+14:54:48 INFO  : ps7_post_config is completed.
+14:55:48 INFO  : System reset is completed.
+14:55:50 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:55:50 INFO  : ps7_init is completed.
+14:55:50 INFO  : ps7_post_config is completed.
+15:00:59 INFO  : System reset is completed.
+15:01:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:01:01 INFO  : ps7_init is completed.
+15:01:01 INFO  : ps7_post_config is completed.
+15:01:31 INFO  : System reset is completed.
+15:01:32 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:01:33 INFO  : ps7_init is completed.
+15:01:33 INFO  : ps7_post_config is completed.
+16:13:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463526751273,  Project:1463521210833
+16:13:41 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:13:50 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:14:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:14:29 INFO  : 
+16:14:50 INFO  : Updating hardware inferred compiler options for bram_test.
+16:14:51 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:14:51 INFO  : Clearing existing target manager status.
+16:15:32 INFO  : System reset is completed.
+16:15:33 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:15:35 INFO  : ps7_init is completed.
+16:15:35 INFO  : ps7_post_config is completed.
+16:22:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:12 INFO  : System reset is completed.
+16:22:13 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:22:14 INFO  : ps7_init is completed.
+16:22:14 INFO  : ps7_post_config is completed.
+16:24:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:24:25 INFO  : System reset is completed.
+16:24:27 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:24:28 INFO  : ps7_init is completed.
+16:24:28 INFO  : ps7_post_config is completed.
+16:26:32 INFO  : System reset is completed.
+16:26:34 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:26:35 INFO  : ps7_init is completed.
+16:26:35 INFO  : ps7_post_config is completed.
+16:59:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463529555043,  Project:1463526751273
+16:59:35 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:59:39 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:00:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:00:28 INFO  : 
+17:00:29 INFO  : Updating hardware inferred compiler options for bram_test.
+17:00:30 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:00:30 INFO  : Clearing existing target manager status.
+17:00:56 INFO  : System reset is completed.
+17:00:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:00:59 INFO  : ps7_init is completed.
+17:00:59 INFO  : ps7_post_config is completed.
+17:05:13 INFO  : System reset is completed.
+17:05:15 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:05:15 INFO  : ps7_init is completed.
+17:05:16 INFO  : ps7_post_config is completed.
+17:29:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463531353155,  Project:1463529555043
+17:29:35 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:29:36 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:29:58 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:29:59 INFO  : 
+17:30:17 INFO  : Updating hardware inferred compiler options for bram_test.
+17:30:18 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:30:18 INFO  : Clearing existing target manager status.
+17:30:36 INFO  : System reset is completed.
+17:30:37 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:30:38 INFO  : ps7_init is completed.
+17:30:38 INFO  : ps7_post_config is completed.
+18:29:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463534929262,  Project:1463531353155
+18:29:46 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:30:04 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:30:31 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:30:50 INFO  : 
+18:30:52 INFO  : Updating hardware inferred compiler options for bram_test.
+18:30:52 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+18:30:52 INFO  : Clearing existing target manager status.
+18:31:16 INFO  : System reset is completed.
+18:31:17 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:31:19 INFO  : ps7_init is completed.
+18:31:19 INFO  : ps7_post_config is completed.
+18:52:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463536299418,  Project:1463534929262
+18:52:02 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:52:07 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:52:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:52:54 INFO  : 
+18:52:56 INFO  : Updating hardware inferred compiler options for bram_test.
+18:52:57 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+18:52:57 INFO  : Clearing existing target manager status.
+18:53:25 INFO  : System reset is completed.
+18:53:29 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:53:30 INFO  : ps7_init is completed.
+18:53:30 INFO  : ps7_post_config is completed.
+19:25:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463538303561,  Project:1463536299418
+19:25:17 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:25:41 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:26:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:26:09 INFO  : 
+19:26:28 INFO  : Updating hardware inferred compiler options for bram_test.
+19:26:29 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+19:26:29 INFO  : Clearing existing target manager status.
+19:27:19 INFO  : System reset is completed.
+19:27:21 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:27:21 INFO  : ps7_init is completed.
+19:27:21 INFO  : ps7_post_config is completed.
+19:39:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463539109041,  Project:1463538303561
+19:39:06 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:39:11 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:39:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:39:31 INFO  : 
+19:39:49 INFO  : Updating hardware inferred compiler options for bram_test.
+19:39:50 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+19:39:50 INFO  : Clearing existing target manager status.
+19:40:15 INFO  : System reset is completed.
+19:40:17 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:40:17 INFO  : ps7_init is completed.
+19:40:17 INFO  : ps7_post_config is completed.
+19:52:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463539948561,  Project:1463539109041
+19:52:57 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:53:06 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:53:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:53:44 INFO  : 
+19:53:45 INFO  : Updating hardware inferred compiler options for bram_test.
+19:53:46 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+19:53:46 INFO  : Clearing existing target manager status.
+19:54:48 INFO  : System reset is completed.
+19:54:50 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:54:51 INFO  : ps7_init is completed.
+19:54:51 INFO  : ps7_post_config is completed.
+20:37:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463542636097,  Project:1463539948561
+20:37:35 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:37:45 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:38:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:38:23 INFO  : 
+20:38:24 INFO  : Updating hardware inferred compiler options for bram_test.
+20:38:25 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+20:38:25 INFO  : Clearing existing target manager status.
+20:38:42 INFO  : System reset is completed.
+20:38:44 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:38:44 INFO  : ps7_init is completed.
+20:38:44 INFO  : ps7_post_config is completed.
+15:23:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463782997534,  Project:1463542636097
+15:23:38 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:23:48 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:24:53 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:25:16 INFO  : 
+15:25:17 INFO  : Updating hardware inferred compiler options for bram_test.
+15:25:18 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+15:25:18 INFO  : Clearing existing target manager status.
+15:52:20 INFO  : System reset is completed.
+15:52:23 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:52:27 INFO  : ps7_init is completed.
+15:52:27 INFO  : ps7_post_config is completed.
+15:53:45 INFO  : System reset is completed.
+15:53:47 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:53:47 INFO  : ps7_init is completed.
+15:53:47 INFO  : ps7_post_config is completed.
+15:58:40 INFO  : System reset is completed.
+15:58:41 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:58:43 INFO  : ps7_init is completed.
+15:58:43 INFO  : ps7_post_config is completed.
+15:59:28 INFO  : System reset is completed.
+15:59:30 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:59:31 INFO  : ps7_init is completed.
+15:59:31 INFO  : ps7_post_config is completed.
+16:26:02 INFO  : System reset is completed.
+16:26:04 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:26:05 INFO  : ps7_init is completed.
+16:26:05 INFO  : ps7_post_config is completed.
+16:42:26 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463787733261,  Project:1463782997534
+16:42:26 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:42:30 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:43:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:43:24 INFO  : 
+16:43:25 INFO  : Updating hardware inferred compiler options for bram_test.
+16:43:26 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:43:26 INFO  : Clearing existing target manager status.
+16:43:51 INFO  : System reset is completed.
+16:43:53 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:43:53 INFO  : ps7_init is completed.
+16:43:54 INFO  : ps7_post_config is completed.
+16:45:49 INFO  : System reset is completed.
+16:45:51 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:45:52 INFO  : ps7_init is completed.
+16:45:52 INFO  : ps7_post_config is completed.
+17:45:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463791466150,  Project:1463787733261
+17:45:54 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:45:58 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:46:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:46:39 INFO  : 
+17:46:40 INFO  : Updating hardware inferred compiler options for bram_test.
+17:46:41 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:46:41 INFO  : Clearing existing target manager status.
+17:47:11 INFO  : System reset is completed.
+17:47:12 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:47:13 INFO  : ps7_init is completed.
+17:47:13 INFO  : ps7_post_config is completed.
+18:47:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463795174530,  Project:1463791466150
+18:47:44 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:47:49 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:48:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:48:41 INFO  : 
+18:48:42 INFO  : Updating hardware inferred compiler options for bram_test.
+18:48:43 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+18:48:43 INFO  : Clearing existing target manager status.
+18:49:19 INFO  : System reset is completed.
+18:49:21 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:49:25 INFO  : ps7_init is completed.
+18:49:25 INFO  : ps7_post_config is completed.
+19:05:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463796326863,  Project:1463795174530
+19:05:58 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:05:59 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:06:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:06:42 INFO  : 
+19:06:43 INFO  : Updating hardware inferred compiler options for bram_test.
+19:06:43 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+19:06:43 INFO  : Clearing existing target manager status.
+19:07:18 INFO  : System reset is completed.
+19:07:20 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:07:22 INFO  : ps7_init is completed.
+19:07:22 INFO  : ps7_post_config is completed.
+19:45:41 INFO  : System reset is completed.
+19:45:43 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:45:43 INFO  : ps7_init is completed.
+19:45:43 INFO  : ps7_post_config is completed.
+19:46:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:46:49 INFO  : System reset is completed.
+19:46:51 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:46:52 INFO  : ps7_init is completed.
+19:46:52 INFO  : ps7_post_config is completed.
+19:47:57 INFO  : System reset is completed.
+19:48:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:48:00 INFO  : ps7_init is completed.
+19:48:00 INFO  : ps7_post_config is completed.
+19:49:00 INFO  : System reset is completed.
+19:49:02 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:49:02 INFO  : ps7_init is completed.
+19:49:02 INFO  : ps7_post_config is completed.
+19:53:30 INFO  : System reset is completed.
+19:53:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:53:34 INFO  : ps7_init is completed.
+19:53:34 INFO  : ps7_post_config is completed.
+20:24:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463801043622,  Project:1463796326863
+20:24:31 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:24:33 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:24:55 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:25:19 INFO  : 
+20:25:20 INFO  : Updating hardware inferred compiler options for bram_test.
+20:25:21 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+20:25:21 INFO  : Clearing existing target manager status.
+20:29:41 INFO  : System reset is completed.
+20:29:42 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:29:43 INFO  : ps7_init is completed.
+20:29:43 INFO  : ps7_post_config is completed.
+20:30:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:30:13 INFO  : System reset is completed.
+20:30:15 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:30:15 INFO  : ps7_init is completed.
+20:30:15 INFO  : ps7_post_config is completed.
+20:31:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+20:31:30 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+20:31:30 ERROR : Disconnect target failed.
+21:28:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463804903967,  Project:1463801043622
+21:28:46 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:28:54 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:29:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:29:44 INFO  : 
+21:29:45 INFO  : Updating hardware inferred compiler options for bram_test.
+21:29:46 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+21:29:46 INFO  : Clearing existing target manager status.
+21:31:14 INFO  : System reset is completed.
+21:31:16 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:31:17 INFO  : ps7_init is completed.
+21:31:17 INFO  : ps7_post_config is completed.
+21:32:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:32:33 INFO  : System reset is completed.
+21:32:35 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:32:36 INFO  : ps7_init is completed.
+21:32:36 INFO  : ps7_post_config is completed.
+21:43:47 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463805801095,  Project:1463804903967
+21:43:47 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:43:49 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:44:13 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:44:37 INFO  : 
+21:44:39 INFO  : Updating hardware inferred compiler options for bram_test.
+21:44:39 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+21:44:39 INFO  : Clearing existing target manager status.
+21:45:37 INFO  : System reset is completed.
+21:45:38 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:45:39 INFO  : ps7_init is completed.
+21:45:39 INFO  : ps7_post_config is completed.
+21:45:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:45:58 INFO  : System reset is completed.
+21:46:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:46:01 INFO  : ps7_init is completed.
+21:46:01 INFO  : ps7_post_config is completed.
+22:36:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463808939251,  Project:1463805801095
+22:36:01 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+22:36:09 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:36:36 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:36:53 INFO  : 
+22:36:54 INFO  : Updating hardware inferred compiler options for bram_test.
+22:36:55 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+22:36:55 INFO  : Clearing existing target manager status.
+22:37:01 INFO  : System reset is completed.
+22:37:02 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:37:03 INFO  : ps7_init is completed.
+22:37:03 INFO  : ps7_post_config is completed.
+22:46:13 INFO  : System reset is completed.
+22:46:15 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:46:17 INFO  : ps7_init is completed.
+22:46:17 INFO  : ps7_post_config is completed.
+22:53:37 INFO  : System reset is completed.
+22:53:39 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:53:40 INFO  : ps7_init is completed.
+22:53:40 INFO  : ps7_post_config is completed.
+23:16:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463811372837,  Project:1463808939251
+23:16:36 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+23:16:57 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:18:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:18:12 INFO  : 
+23:18:45 INFO  : Updating hardware inferred compiler options for bram_test.
+23:18:45 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+23:18:46 INFO  : Clearing existing target manager status.
+23:19:27 INFO  : System reset is completed.
+23:19:28 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:19:29 INFO  : ps7_init is completed.
+23:19:29 INFO  : ps7_post_config is completed.
+23:23:37 INFO  : System reset is completed.
+23:23:39 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:23:40 INFO  : ps7_init is completed.
+23:23:40 INFO  : ps7_post_config is completed.
+23:24:39 INFO  : System reset is completed.
+23:24:40 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:24:41 INFO  : ps7_init is completed.
+23:24:41 INFO  : ps7_post_config is completed.
+15:00:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463867984751,  Project:1463811372837
+15:00:06 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:00:14 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:00:42 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:01:01 INFO  : 
+15:01:02 INFO  : Updating hardware inferred compiler options for bram_test.
+15:01:03 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+15:01:03 INFO  : Clearing existing target manager status.
+15:08:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463868455040,  Project:1463867984751
+15:08:15 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:08:27 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:08:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:08:51 INFO  : 
+15:09:10 INFO  : Updating hardware inferred compiler options for bram_test.
+15:09:11 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+15:09:11 INFO  : Clearing existing target manager status.
+15:09:54 INFO  : System reset is completed.
+15:09:56 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:09:58 INFO  : ps7_init is completed.
+15:09:58 INFO  : ps7_post_config is completed.
+15:11:07 INFO  : System reset is completed.
+15:11:09 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:11:10 INFO  : ps7_init is completed.
+15:11:10 INFO  : ps7_post_config is completed.
+15:12:20 INFO  : System reset is completed.
+15:12:23 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:12:24 INFO  : ps7_init is completed.
+15:12:24 INFO  : ps7_post_config is completed.
+15:35:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463870125862,  Project:1463868455040
+15:35:58 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:35:59 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:36:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:36:49 INFO  : 
+15:36:50 INFO  : Updating hardware inferred compiler options for bram_test.
+15:36:50 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+15:36:50 INFO  : Clearing existing target manager status.
+15:38:17 INFO  : System reset is completed.
+15:38:20 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:21 INFO  : ps7_init is completed.
+15:38:21 INFO  : ps7_post_config is completed.
+16:02:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463871751694,  Project:1463870125862
+16:02:52 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:02:59 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:04:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:04:28 INFO  : 
+16:04:29 INFO  : Updating hardware inferred compiler options for bram_test.
+16:04:30 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:04:30 INFO  : Clearing existing target manager status.
+16:05:14 INFO  : System reset is completed.
+16:05:16 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:05:17 INFO  : ps7_init is completed.
+16:05:17 INFO  : ps7_post_config is completed.
+16:27:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463873143106,  Project:1463871751694
+16:27:59 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:28:01 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:28:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:28:48 INFO  : 
+16:28:49 INFO  : Updating hardware inferred compiler options for bram_test.
+16:28:50 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:28:50 INFO  : Clearing existing target manager status.
+16:29:13 INFO  : System reset is completed.
+16:29:15 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:29:15 INFO  : ps7_init is completed.
+16:29:16 INFO  : ps7_post_config is completed.
+16:50:25 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463874600787,  Project:1463873143106
+16:50:25 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:50:30 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:50:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:51:17 INFO  : 
+16:51:18 INFO  : Updating hardware inferred compiler options for bram_test.
+16:51:19 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:51:19 INFO  : Clearing existing target manager status.
+16:51:56 INFO  : System reset is completed.
+16:51:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:51:59 INFO  : ps7_init is completed.
+16:51:59 INFO  : ps7_post_config is completed.
+17:09:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463875749029,  Project:1463874600787
+17:09:38 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:09:39 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:10:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:10:24 INFO  : 
+17:10:25 INFO  : Updating hardware inferred compiler options for bram_test.
+17:10:26 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:10:26 INFO  : Clearing existing target manager status.
+17:11:03 INFO  : System reset is completed.
+17:11:05 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:11:05 INFO  : ps7_init is completed.
+17:11:06 INFO  : ps7_post_config is completed.
+17:27:56 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463876770094,  Project:1463875749029
+17:27:56 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:28:38 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:29:05 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:29:24 INFO  : 
+17:29:25 INFO  : Updating hardware inferred compiler options for bram_test.
+17:29:26 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:29:26 INFO  : Clearing existing target manager status.
+17:30:18 INFO  : System reset is completed.
+17:30:20 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:30:21 INFO  : ps7_init is completed.
+17:30:21 INFO  : ps7_post_config is completed.
+17:38:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1463877508155,  Project:1463876770094
+17:38:49 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:39:05 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:39:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:39:56 INFO  : 
+17:39:57 INFO  : Updating hardware inferred compiler options for bram_test.
+17:39:58 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+17:39:58 INFO  : Clearing existing target manager status.
+17:41:16 INFO  : System reset is completed.
+17:41:18 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:41:18 INFO  : ps7_init is completed.
+17:41:18 INFO  : ps7_post_config is completed.
+12:43:43 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+12:43:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:43:47 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:56:36 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+12:56:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:56:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:51:29 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:07:45 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:10:16 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+14:10:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:10:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:29:54 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+17:29:57 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:29:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:49:05 INFO  : Project bram_test_bsp was a BSP project. Please update references.
+16:49:05 ERROR : SDK has detected that project bram_test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:49:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:10:43 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:01 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:29 INFO  : No changes in MSS file content so not generating sources.
+17:17:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:37 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:18:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:19:25 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:19:25 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:19:25 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:42:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:42:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:42:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+18:16:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:10:12 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+12:10:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:10:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:50:49 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+11:50:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:50:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:57:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+20:37:32 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:38:18 INFO  : ps7_init is completed.
+20:38:18 INFO  : ps7_post_config is completed.
+20:38:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:38:49 INFO  : System reset is completed.
+20:38:51 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:38:52 INFO  : ps7_init is completed.
+20:38:52 INFO  : ps7_post_config is completed.
+20:39:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:39:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:39:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:40:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:40:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:48:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:48:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:54:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:54:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:56:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:56:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:07:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:08:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:09:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:09:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:12:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:12:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:15:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:15:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:17:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:18:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:18:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:22:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:22:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:29:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:29:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:36:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:36:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:41:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:41:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:44:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:44:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:48:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:48:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:48:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:48:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:50:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:52:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:52:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:58:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:58:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:02:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:02:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:05:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:05:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:07:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:07:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:09:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:09:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:14:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:14:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:16:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:17:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:17:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:18:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:18:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:19:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:19:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:21:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:21:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:22:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:22:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:23:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:23:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:23:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:23:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:24:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:24:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:29:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:29:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:30:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:30:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:37:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:37:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:40:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:40:57 INFO  : System reset is completed.
+22:40:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:40:59 INFO  : ps7_init is completed.
+22:40:59 INFO  : ps7_post_config is completed.
+22:40:59 ERROR : Port COM4 is already in use.
+22:47:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:47:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:53:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:53:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:54:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:54:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:56:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:56:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:58:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:58:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:02:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:02:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:03:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:03:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:10:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:10:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:11:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:11:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:15:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:15:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:17:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:18:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:19:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:19:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:20:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:20:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:22:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:22:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:22:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:22:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:23:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:23:21 INFO  : System reset is completed.
+23:23:23 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:23:24 INFO  : ps7_init is completed.
+23:23:24 INFO  : ps7_post_config is completed.
+23:26:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:26:33 INFO  : System reset is completed.
+23:26:36 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:26:36 INFO  : ps7_init is completed.
+23:26:36 INFO  : ps7_post_config is completed.
+23:32:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:32:58 INFO  : System reset is completed.
+23:32:59 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:33:00 INFO  : ps7_init is completed.
+23:33:00 INFO  : ps7_post_config is completed.
+23:41:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:41:08 INFO  : System reset is completed.
+23:41:09 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:41:10 INFO  : ps7_init is completed.
+23:41:10 INFO  : ps7_post_config is completed.
+23:44:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:44:30 INFO  : System reset is completed.
+23:44:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:44:32 INFO  : ps7_init is completed.
+23:44:32 INFO  : ps7_post_config is completed.
+23:59:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:59:26 INFO  : System reset is completed.
+23:59:27 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:59:28 INFO  : ps7_init is completed.
+23:59:28 INFO  : ps7_post_config is completed.
+00:03:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:03:25 INFO  : System reset is completed.
+00:03:27 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:03:28 INFO  : ps7_init is completed.
+00:03:28 INFO  : ps7_post_config is completed.
+00:09:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:09:12 INFO  : System reset is completed.
+00:09:14 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:09:15 INFO  : ps7_init is completed.
+00:09:15 INFO  : ps7_post_config is completed.
+00:10:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:10:47 INFO  : System reset is completed.
+00:10:49 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:10:49 INFO  : ps7_init is completed.
+00:10:49 INFO  : ps7_post_config is completed.
+00:12:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:12:23 INFO  : System reset is completed.
+00:12:24 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:12:25 INFO  : ps7_init is completed.
+00:12:25 INFO  : ps7_post_config is completed.
+00:14:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:14:47 INFO  : System reset is completed.
+00:14:48 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:14:49 INFO  : ps7_init is completed.
+00:14:49 INFO  : ps7_post_config is completed.
+00:16:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:16:06 INFO  : System reset is completed.
+00:16:08 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:16:08 INFO  : ps7_init is completed.
+00:16:09 INFO  : ps7_post_config is completed.
+00:16:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:16:24 INFO  : System reset is completed.
+00:16:26 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:16:26 INFO  : ps7_init is completed.
+00:16:26 INFO  : ps7_post_config is completed.
+00:20:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:20:10 INFO  : System reset is completed.
+00:20:12 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:20:13 INFO  : ps7_init is completed.
+00:20:13 INFO  : ps7_post_config is completed.
+00:22:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:22:26 INFO  : System reset is completed.
+00:22:27 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:22:28 INFO  : ps7_init is completed.
+00:22:28 INFO  : ps7_post_config is completed.
+11:34:28 INFO  : System reset is completed.
+11:34:30 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:34:33 INFO  : ps7_init is completed.
+11:34:33 INFO  : ps7_post_config is completed.
+11:36:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:36:44 INFO  : System reset is completed.
+11:36:45 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:36:46 INFO  : ps7_init is completed.
+11:36:46 INFO  : ps7_post_config is completed.
+11:41:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:41:07 INFO  : System reset is completed.
+11:41:09 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:41:09 INFO  : ps7_init is completed.
+11:41:10 INFO  : ps7_post_config is completed.
+11:41:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:41:56 INFO  : System reset is completed.
+11:41:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:41:59 INFO  : ps7_init is completed.
+11:41:59 INFO  : ps7_post_config is completed.
+14:41:44 INFO  : System reset is completed.
+14:41:45 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:41:49 INFO  : ps7_init is completed.
+14:41:49 INFO  : ps7_post_config is completed.
+15:28:14 INFO  : System reset is completed.
+15:28:16 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:28:17 INFO  : ps7_init is completed.
+15:28:17 INFO  : ps7_post_config is completed.
+10:46:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:28:38 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+15:28:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:28:41 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:43:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+14:08:24 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:353)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+14:09:13 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:353)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:05:07 INFO  : System reset is completed.
+15:05:08 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:05:09 INFO  : ps7_init is completed.
+15:05:09 INFO  : ps7_post_config is completed.
+15:08:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:09:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:09:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:09:27 INFO  : System reset is completed.
+15:09:29 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:09:29 INFO  : ps7_init is completed.
+15:09:29 INFO  : ps7_post_config is completed.
+15:10:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:11:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:11:42 INFO  : System reset is completed.
+15:11:44 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:11:44 INFO  : ps7_init is completed.
+15:11:44 INFO  : ps7_post_config is completed.
+15:12:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:28 INFO  : System reset is completed.
+15:12:30 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:12:30 INFO  : ps7_init is completed.
+15:12:30 INFO  : ps7_post_config is completed.
+15:14:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:14:34 INFO  : System reset is completed.
+15:14:36 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:14:36 INFO  : ps7_init is completed.
+15:14:37 INFO  : ps7_post_config is completed.
+15:15:08 INFO  : System reset is completed.
+15:15:09 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:15:10 INFO  : ps7_init is completed.
+15:15:10 INFO  : ps7_post_config is completed.
+15:19:18 INFO  : System reset is completed.
+15:19:20 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:19:20 INFO  : ps7_init is completed.
+15:19:20 INFO  : ps7_post_config is completed.
+15:19:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:19:48 INFO  : System reset is completed.
+15:19:50 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:19:51 INFO  : ps7_init is completed.
+15:19:51 INFO  : ps7_post_config is completed.
+15:20:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:20:39 INFO  : System reset is completed.
+15:20:41 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:20:42 INFO  : ps7_init is completed.
+15:20:42 INFO  : ps7_post_config is completed.
+15:21:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:56 INFO  : System reset is completed.
+15:21:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:21:59 INFO  : ps7_init is completed.
+15:21:59 INFO  : ps7_post_config is completed.
+15:23:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:23:05 INFO  : System reset is completed.
+15:23:07 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:23:08 INFO  : ps7_init is completed.
+15:23:08 INFO  : ps7_post_config is completed.
+15:23:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:24:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:24:35 INFO  : System reset is completed.
+15:24:37 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:24:37 INFO  : ps7_init is completed.
+15:24:37 INFO  : ps7_post_config is completed.
+15:25:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:25:33 INFO  : System reset is completed.
+15:25:35 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:25:36 INFO  : ps7_init is completed.
+15:25:36 INFO  : ps7_post_config is completed.
+15:27:50 INFO  : System reset is completed.
+15:27:52 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:27:54 INFO  : ps7_init is completed.
+15:27:54 INFO  : ps7_post_config is completed.
+15:31:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:31:19 INFO  : System reset is completed.
+15:31:21 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:31:21 INFO  : ps7_init is completed.
+15:31:21 INFO  : ps7_post_config is completed.
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+15:33:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:17:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:17:36 INFO  : System reset is completed.
+16:17:38 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:17:39 INFO  : ps7_init is completed.
+16:17:39 INFO  : ps7_post_config is completed.
+16:17:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:17:56 INFO  : System reset is completed.
+16:17:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:17:58 INFO  : ps7_init is completed.
+16:17:59 INFO  : ps7_post_config is completed.
+16:19:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:19:29 INFO  : System reset is completed.
+16:19:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:19:32 INFO  : ps7_init is completed.
+16:19:32 INFO  : ps7_post_config is completed.
+16:22:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:59 INFO  : System reset is completed.
+16:23:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:23:01 INFO  : ps7_init is completed.
+16:23:01 INFO  : ps7_post_config is completed.
+16:24:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:24:49 INFO  : System reset is completed.
+16:24:51 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:24:51 INFO  : ps7_init is completed.
+16:24:52 INFO  : ps7_post_config is completed.
+16:25:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:25:43 INFO  : System reset is completed.
+16:25:45 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:25:45 INFO  : ps7_init is completed.
+16:25:45 INFO  : ps7_post_config is completed.
+16:26:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:24 INFO  : System reset is completed.
+16:26:27 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:26:28 INFO  : ps7_init is completed.
+16:26:28 INFO  : ps7_post_config is completed.
+16:27:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:20 INFO  : System reset is completed.
+16:27:22 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:27:22 INFO  : ps7_init is completed.
+16:27:22 INFO  : ps7_post_config is completed.
+16:27:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:56 INFO  : System reset is completed.
+16:27:57 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:27:58 INFO  : ps7_init is completed.
+16:27:58 INFO  : ps7_post_config is completed.
+16:29:05 INFO  : System reset is completed.
+16:29:07 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:29:09 INFO  : ps7_init is completed.
+16:29:09 INFO  : ps7_post_config is completed.
+16:36:10 INFO  : System reset is completed.
+16:36:11 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:36:13 INFO  : ps7_init is completed.
+16:36:13 INFO  : ps7_post_config is completed.
+19:06:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:06:50 INFO  : System reset is completed.
+19:06:51 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:06:52 INFO  : ps7_init is completed.
+19:06:52 INFO  : ps7_post_config is completed.
+19:09:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:10:01 INFO  : System reset is completed.
+19:10:03 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:10:04 INFO  : ps7_init is completed.
+19:10:04 INFO  : ps7_post_config is completed.
+19:11:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:11:06 INFO  : System reset is completed.
+19:11:08 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:11:08 INFO  : ps7_init is completed.
+19:11:08 INFO  : ps7_post_config is completed.
+19:11:45 INFO  : System reset is completed.
+19:11:56 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:11:57 INFO  : ps7_init is completed.
+19:11:57 INFO  : ps7_post_config is completed.
+22:05:28 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+22:05:28 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+12:44:07 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:353)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:53:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:09:23 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+15:09:25 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:09:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:38:15 INFO  : System reset is completed.
+15:38:17 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:18 INFO  : ps7_init is completed.
+15:38:18 INFO  : ps7_post_config is completed.
+15:38:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:38:43 INFO  : System reset is completed.
+15:38:45 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:45 INFO  : ps7_init is completed.
+15:38:45 INFO  : ps7_post_config is completed.
+15:40:58 INFO  : System reset is completed.
+15:41:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:41:00 INFO  : ps7_init is completed.
+15:41:00 INFO  : ps7_post_config is completed.
+15:42:33 INFO  : System reset is completed.
+15:42:35 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:42:36 INFO  : ps7_init is completed.
+15:42:36 INFO  : ps7_post_config is completed.
+15:43:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:43:15 INFO  : System reset is completed.
+15:43:15 INFO  : ps7_init is completed.
+15:43:15 INFO  : ps7_post_config is completed.
+16:08:44 INFO  : System reset is completed.
+16:08:45 INFO  : ps7_init is completed.
+16:08:45 INFO  : ps7_post_config is completed.
+16:09:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:09:55 INFO  : System reset is completed.
+16:09:55 INFO  : ps7_init is completed.
+16:09:55 INFO  : ps7_post_config is completed.
+16:17:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:17:18 INFO  : System reset is completed.
+16:17:18 INFO  : ps7_init is completed.
+16:17:19 INFO  : ps7_post_config is completed.
+16:46:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:46:53 INFO  : System reset is completed.
+16:46:53 INFO  : ps7_init is completed.
+16:46:53 INFO  : ps7_post_config is completed.
+16:54:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:54:58 INFO  : System reset is completed.
+16:54:59 INFO  : ps7_init is completed.
+16:54:59 INFO  : ps7_post_config is completed.
+16:56:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:56:10 INFO  : System reset is completed.
+16:56:11 INFO  : ps7_init is completed.
+16:56:11 INFO  : ps7_post_config is completed.
+16:57:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:57:17 INFO  : System reset is completed.
+16:57:17 INFO  : ps7_init is completed.
+16:57:18 INFO  : ps7_post_config is completed.
+16:57:55 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:469)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:00:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:00:50 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+17:00:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:00:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:01:42 INFO  : System reset is completed.
+17:01:42 INFO  : ps7_init is completed.
+17:01:42 INFO  : ps7_post_config is completed.
+17:04:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:04:03 INFO  : System reset is completed.
+17:04:03 INFO  : ps7_init is completed.
+17:04:03 INFO  : ps7_post_config is completed.
+17:06:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:46 INFO  : System reset is completed.
+17:06:46 INFO  : ps7_init is completed.
+17:06:46 INFO  : ps7_post_config is completed.
+17:08:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:08:39 INFO  : System reset is completed.
+17:08:39 INFO  : ps7_init is completed.
+17:08:39 INFO  : ps7_post_config is completed.
+17:37:00 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+10:30:09 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+10:30:09 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:30:25 INFO  : System reset is completed.
+10:30:25 INFO  : ps7_init is completed.
+10:30:25 INFO  : ps7_post_config is completed.
+10:31:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:31:12 INFO  : System reset is completed.
+10:31:12 INFO  : ps7_init is completed.
+10:31:12 INFO  : ps7_post_config is completed.
+10:32:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:32:08 INFO  : System reset is completed.
+10:32:08 INFO  : ps7_init is completed.
+10:32:08 INFO  : ps7_post_config is completed.
+10:57:31 INFO  : System reset is completed.
+10:57:32 INFO  : ps7_init is completed.
+10:57:32 INFO  : ps7_post_config is completed.
+11:02:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:02:48 INFO  : System reset is completed.
+11:02:48 INFO  : ps7_init is completed.
+11:02:48 INFO  : ps7_post_config is completed.
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:09:20 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+11:20:18 INFO  : System reset is completed.
+11:20:18 INFO  : ps7_init is completed.
+11:20:18 INFO  : ps7_post_config is completed.
+11:20:53 INFO  : System reset is completed.
+11:20:54 INFO  : ps7_init is completed.
+11:20:54 INFO  : ps7_post_config is completed.
+11:21:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:21:15 INFO  : System reset is completed.
+11:21:16 INFO  : ps7_init is completed.
+11:21:16 INFO  : ps7_post_config is completed.
+11:23:50 INFO  : System reset is completed.
+11:23:51 INFO  : ps7_init is completed.
+11:23:51 INFO  : ps7_post_config is completed.
+11:25:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:25:27 INFO  : System reset is completed.
+11:25:27 INFO  : ps7_init is completed.
+11:25:27 INFO  : ps7_post_config is completed.
+11:27:37 INFO  : System reset is completed.
+11:27:38 INFO  : ps7_init is completed.
+11:27:38 INFO  : ps7_post_config is completed.
+11:34:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:34:57 INFO  : System reset is completed.
+11:34:57 INFO  : ps7_init is completed.
+11:34:57 INFO  : ps7_post_config is completed.
+11:36:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:36:25 INFO  : System reset is completed.
+11:36:26 INFO  : ps7_init is completed.
+11:36:26 INFO  : ps7_post_config is completed.
+11:36:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:36:56 INFO  : System reset is completed.
+11:36:57 INFO  : ps7_init is completed.
+11:36:57 INFO  : ps7_post_config is completed.
+11:42:23 INFO  : System reset is completed.
+11:42:23 INFO  : ps7_init is completed.
+11:42:23 INFO  : ps7_post_config is completed.
+11:55:11 INFO  : System reset is completed.
+11:55:12 INFO  : ps7_init is completed.
+11:55:12 INFO  : ps7_post_config is completed.
+11:56:43 INFO  : System reset is completed.
+11:56:43 INFO  : ps7_init is completed.
+11:56:43 INFO  : ps7_post_config is completed.
+13:05:52 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+13:05:52 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:299)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:06:50 INFO  : System reset is completed.
+13:06:51 INFO  : ps7_init is completed.
+13:06:51 INFO  : ps7_post_config is completed.
+13:18:23 INFO  : System reset is completed.
+13:18:24 INFO  : ps7_init is completed.
+13:18:24 INFO  : ps7_post_config is completed.
+13:25:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:25:09 INFO  : System reset is completed.
+13:25:09 INFO  : ps7_init is completed.
+13:25:09 INFO  : ps7_post_config is completed.
+13:34:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:34:50 INFO  : System reset is completed.
+13:34:50 INFO  : ps7_init is completed.
+13:34:50 INFO  : ps7_post_config is completed.
+14:18:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:18:19 INFO  : System reset is completed.
+14:18:19 INFO  : ps7_init is completed.
+14:18:19 INFO  : ps7_post_config is completed.
+14:32:00 INFO  : System reset is completed.
+14:32:00 INFO  : ps7_init is completed.
+14:32:00 INFO  : ps7_post_config is completed.
+15:30:28 INFO  : System reset is completed.
+15:30:28 INFO  : ps7_init is completed.
+15:30:28 INFO  : ps7_post_config is completed.
+15:37:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:37:48 INFO  : System reset is completed.
+15:37:49 INFO  : ps7_init is completed.
+15:37:49 INFO  : ps7_post_config is completed.
+15:56:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:56:03 INFO  : System reset is completed.
+15:56:04 INFO  : ps7_init is completed.
+15:56:04 INFO  : ps7_post_config is completed.
+16:02:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:02:36 INFO  : System reset is completed.
+16:02:36 INFO  : ps7_init is completed.
+16:02:36 INFO  : ps7_post_config is completed.
+16:13:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:13:40 INFO  : System reset is completed.
+16:13:40 INFO  : ps7_init is completed.
+16:13:40 INFO  : ps7_post_config is completed.
+16:17:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:17:18 INFO  : System reset is completed.
+16:17:21 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:505)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:17:43 INFO  : System reset is completed.
+16:17:43 INFO  : ps7_init is completed.
+16:17:43 INFO  : ps7_post_config is completed.
+16:26:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:26:10 INFO  : System reset is completed.
+16:26:11 INFO  : ps7_init is completed.
+16:26:11 INFO  : ps7_post_config is completed.
+16:36:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:36:54 INFO  : System reset is completed.
+16:36:54 INFO  : ps7_init is completed.
+16:36:54 INFO  : ps7_post_config is completed.
+16:38:22 INFO  : System reset is completed.
+16:38:23 INFO  : ps7_init is completed.
+16:38:23 INFO  : ps7_post_config is completed.
+16:38:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:38:53 INFO  : System reset is completed.
+16:38:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:590)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:256)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:39:22 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:39:50 INFO  : System reset is completed.
+16:39:50 INFO  : ps7_init is completed.
+16:39:50 INFO  : ps7_post_config is completed.
+16:41:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:41:30 INFO  : System reset is completed.
+16:41:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:403)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:590)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:256)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:43:32 INFO  : System reset is completed.
+16:43:34 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:43:38 INFO  : ps7_init is completed.
+16:43:38 INFO  : ps7_post_config is completed.
+16:48:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:48:22 INFO  : System reset is completed.
+16:48:24 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:48:25 INFO  : ps7_init is completed.
+16:48:25 INFO  : ps7_post_config is completed.
+16:50:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:50:25 INFO  : System reset is completed.
+16:50:26 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:50:27 INFO  : ps7_init is completed.
+16:50:27 INFO  : ps7_post_config is completed.
+16:52:05 INFO  : System reset is completed.
+16:52:08 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:52:09 INFO  : ps7_init is completed.
+16:52:09 INFO  : ps7_post_config is completed.
+16:55:02 INFO  : System reset is completed.
+16:55:03 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:55:05 INFO  : ps7_init is completed.
+16:55:05 INFO  : ps7_post_config is completed.
+16:56:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:56:05 INFO  : System reset is completed.
+16:56:06 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:56:07 INFO  : ps7_init is completed.
+16:56:07 INFO  : ps7_post_config is completed.
+16:57:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:57:33 INFO  : System reset is completed.
+16:57:34 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:57:35 INFO  : ps7_init is completed.
+16:57:35 INFO  : ps7_post_config is completed.
+16:58:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:58:52 INFO  : System reset is completed.
+16:58:53 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:58:54 INFO  : ps7_init is completed.
+16:58:54 INFO  : ps7_post_config is completed.
+16:59:31 INFO  : System reset is completed.
+16:59:33 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:59:35 INFO  : ps7_init is completed.
+16:59:35 INFO  : ps7_post_config is completed.
+17:00:34 INFO  : System reset is completed.
+17:00:36 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:00:38 INFO  : ps7_init is completed.
+17:00:38 INFO  : ps7_post_config is completed.
+17:01:14 INFO  : System reset is completed.
+17:01:16 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:01:18 INFO  : ps7_init is completed.
+17:01:18 INFO  : ps7_post_config is completed.
+17:03:33 INFO  : System reset is completed.
+17:03:34 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:03:36 INFO  : ps7_init is completed.
+17:03:36 INFO  : ps7_post_config is completed.
+17:05:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:05:23 INFO  : System reset is completed.
+17:05:24 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:05:25 INFO  : ps7_init is completed.
+17:05:25 INFO  : ps7_post_config is completed.
+17:06:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:06:49 INFO  : System reset is completed.
+17:06:50 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:06:51 INFO  : ps7_init is completed.
+17:06:51 INFO  : ps7_post_config is completed.
+17:08:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:08:56 INFO  : System reset is completed.
+17:08:57 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:08:58 INFO  : ps7_init is completed.
+17:08:58 INFO  : ps7_post_config is completed.
+17:09:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:09:46 INFO  : System reset is completed.
+17:09:48 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:09:48 INFO  : ps7_init is completed.
+17:09:48 INFO  : ps7_post_config is completed.
+17:10:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:10:29 INFO  : System reset is completed.
+17:10:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:10:32 INFO  : ps7_init is completed.
+17:10:32 INFO  : ps7_post_config is completed.
+17:11:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:11:47 INFO  : System reset is completed.
+17:11:49 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:11:49 INFO  : ps7_init is completed.
+17:11:49 INFO  : ps7_post_config is completed.
+17:12:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:12:56 INFO  : System reset is completed.
+17:12:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:12:58 INFO  : ps7_init is completed.
+17:12:58 INFO  : ps7_post_config is completed.
+17:13:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:13:29 INFO  : System reset is completed.
+17:13:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:13:31 INFO  : ps7_init is completed.
+17:13:31 INFO  : ps7_post_config is completed.
+17:14:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:14:18 INFO  : System reset is completed.
+17:14:19 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:14:20 INFO  : ps7_init is completed.
+17:14:20 INFO  : ps7_post_config is completed.
+17:15:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:15:30 INFO  : System reset is completed.
+17:15:32 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:15:32 INFO  : ps7_init is completed.
+17:15:32 INFO  : ps7_post_config is completed.
+17:17:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:54 INFO  : System reset is completed.
+17:17:55 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:17:56 INFO  : ps7_init is completed.
+17:17:56 INFO  : ps7_post_config is completed.
+17:30:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:58 INFO  : System reset is completed.
+17:31:00 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:31:01 INFO  : ps7_init is completed.
+17:31:01 INFO  : ps7_post_config is completed.
+17:33:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:33:57 INFO  : System reset is completed.
+17:33:58 INFO  : FPGA configured successfully with bitstream "C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:33:59 INFO  : ps7_init is completed.
+17:33:59 INFO  : ps7_post_config is completed.
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+12:57:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+13:09:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:53:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1473897157209,  Project:1463877508155
+16:53:49 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:53:58 INFO  : Copied contents of C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:54:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:54:05 INFO  : 
+16:54:06 INFO  : Updating hardware inferred compiler options for apex_sources.
+16:54:07 INFO  : Updating hardware inferred compiler options for bram_test_bsp_xbram_example_1.
+16:54:07 INFO  : Clearing existing target manager status.
+16:55:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:57:03 INFO  : Processing command line option -hwspec C:/Users/ravishm/xilinx_projects/bram_test/bram_test.sdk/design_1_wrapper.hdf.
+16:57:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:57:06 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:57:50 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+16:59:02 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:13 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:13 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:13 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss
+17:02:23 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\ravishm\xilinx_projects\bram_test\bram_test.sdk\bram_test_bsp\system.mss

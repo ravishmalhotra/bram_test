@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bram_test_bsp&apos; to &apos;apex_sources_bsp&apos;" description="Rename resource &apos;bram_test_bsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/bram_test_bsp" name="apex_sources_bsp" stamp="1470700145238" updateReferences="true"/>
+</session>

@@ -1,0 +1,22 @@
+/*
+ * site.h
+ *
+ *  Created on: Sep 8, 2016
+ *      Author: ravishm
+ */
+
+#ifndef SITE_H_
+#define SITE_H_
+
+typedef struct Site {
+
+	u8 site_num;
+	Oscillator osc;
+
+
+} Site;
+
+
+void new_site(Site *site);
+
+#endif /* SITE_H_ */

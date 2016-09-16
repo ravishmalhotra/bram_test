@@ -1,0 +1,46 @@
+#include "freq_counter.h"
+
+static XBram_Config *config_ptr;
+
+void init_counter(void) {
+
+	int status;
+	XBram bram;
+
+	config_ptr = XBram_LookupConfig(BRAM_DEVICE_ID);
+	check_error(((config_ptr == (XBram_Config *) NULL)),FREQ_COUNTER,"BRAM Config Pointer does not have a address");
+
+	status = XBram_CfgInitialize(&bram, config_ptr,config_ptr->CtrlBaseAddress);
+	check_error((status != XST_SUCCESS), FREQ_COUNTER, "BRAM Control Registers could not be assigned proper values");
+
+	return;
+}
+
+u32 get_ref_counter(int channel) {
+
+	u32 ref_counter;
+	ref_counter= XBram_ReadReg(ConfigPtr->MemBaseAddress, channel*8);
+	check_error((ref_counter==0), FREQ_COUNTER, "No 10MHz reference frequency found.");
+	return ref_counter;
+}
+
+u32 get_meas_counter(int channel) {
+
+	u32 meas_counter;
+	meas_counter= XBram_ReadReg(ConfigPtr->MemBaseAddress, channel*8+4);
+	check_warning((counter<=MIN_MEAS_COUNTER_VALUE),FREQ_COUNTER,"Measurement Channel %d did not find a working oscillator. Counter value: %d",channel,counter);
+	check_warning((counter>=MAX_MEAS_COUNTER_VALUE),FREQ_COUNTER,"Measurement Channel %d has a higher than expected counter value. Counter value: %d",channel,counter);
+	return meas_counter;
+}
+
+
+float get_freq(int channel) {
+
+	meas_counter=get_meas_counter(channel);
+	ref_counter=get_ref_counter(channel);
+
+	float freq=((float)meas_counter/(float)ref_counter)*(REF_FREQ);
+	check_warning(((freq)<=MIN_FREQUENCY),FREQ_COUNTER,"Channel %d frequency is below expectation. Frequency: %d",channel,(freq));
+
+
+}

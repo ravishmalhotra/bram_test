@@ -1,0 +1,16 @@
+
+#ifndef CONSTANTS_H		/* prevent circular inclusions */
+#define CONSTANTS_H		/* by using protection macros */
+
+#define MIN_MEAS_COUNTER_VALUE 0
+#define MAX_MEAS_COUNTER_VALUE 2400000
+#define FREQ_CHANNELS 8
+
+
+typedef enum  {FREQ_COUNTER,NET_ANA,FREQ_TRIM,LEAKAGE,POWER_SUPPLY} logsubsystem;
+typedef enum  {ALL_INFO,WARN_AND_ERROR_ONLY,ERROR_ONLY} loglevel;
+
+loglevel LOG_LEVEL=ALL_INFO;
+
+
+#endif
